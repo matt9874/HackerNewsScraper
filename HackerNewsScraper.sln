@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsScraper.Services"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsScraper.Domain", "HackerNewsScraper.Domain\HackerNewsScraper.Domain.csproj", "{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsScraper.Services.Tests", "HackerNewsScraper.Services.Tests\HackerNewsScraper.Services.Tests.csproj", "{F039010D-F86F-490D-B228-4AAA371AF1AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F039010D-F86F-490D-B228-4AAA371AF1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F039010D-F86F-490D-B228-4AAA371AF1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F039010D-F86F-490D-B228-4AAA371AF1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F039010D-F86F-490D-B228-4AAA371AF1AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{40530646-9532-4322-85FB-6DDC1F36820C} = {40933DDA-F9E6-4ECB-AB18-8442031FC0A5}
 		{862C1CE6-460E-4576-996A-3B7EBD8F536E} = {40933DDA-F9E6-4ECB-AB18-8442031FC0A5}
 		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D} = {40933DDA-F9E6-4ECB-AB18-8442031FC0A5}
+		{F039010D-F86F-490D-B228-4AAA371AF1AA} = {78A55600-273E-4F06-9DA6-44E6FE02AB2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C48A22E3-AD34-4297-B18E-FC7C809720A6}
