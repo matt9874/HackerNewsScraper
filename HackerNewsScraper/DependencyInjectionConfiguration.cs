@@ -2,6 +2,8 @@
 using HackerNewsScraper.InputHandling;
 using Microsoft.Extensions.DependencyInjection;
 using HackerNewsScraper.Services;
+using System.Collections.Generic;
+using HackerNewsScraper.Domain;
 
 namespace HackerNewsScraper
 {
@@ -18,6 +20,9 @@ namespace HackerNewsScraper
         {
             services.AddTransient<IInputParser, InputParser>();
             services.AddTransient<IPostsScraper, Services.HackerNewsScraper>();
+            services.AddTransient<IDataImporter<string,string>, HtmlTextImporter>();
+            services.AddTransient<IDataFormatter<List<Post>, string>, PostsFormatter>();
+            services.AddTransient<IDataExporter<string>, ConsoleWriter>();
         }
     }
 }
