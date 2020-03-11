@@ -1,4 +1,5 @@
-﻿using HackerNewsScraper.InputValidation;
+﻿using HackerNewScraper.Interfaces;
+using HackerNewsScraper.InputHandling;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
@@ -10,12 +11,11 @@ namespace HackerNewsScraper
         {
             var serviceProvider = DependencyInjectionConfiguration.GetServiceProvider();
 
-            IInputValidator inputValidator = serviceProvider.GetRequiredService<IInputValidator>();
-            InputStatus inputStatus = inputValidator.Validate(args);
+            IInputParser inputValidator = serviceProvider.GetRequiredService<IInputParser>();
+            Input inputStatus = inputValidator.Parse(args);
 
             if (inputStatus.IsValid)
             {
-
             }
             else 
             {

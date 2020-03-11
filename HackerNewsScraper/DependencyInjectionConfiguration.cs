@@ -1,5 +1,7 @@
-﻿using HackerNewsScraper.InputValidation;
+﻿using HackerNewScraper.Interfaces;
+using HackerNewsScraper.InputHandling;
 using Microsoft.Extensions.DependencyInjection;
+using HackerNewsScraper.Services;
 
 namespace HackerNewsScraper
 {
@@ -14,7 +16,7 @@ namespace HackerNewsScraper
 
         internal static void Configure(IServiceCollection services)
         {
-            services.AddTransient<IInputValidator, InputValidator>();
+            services.AddTransient<IInputParser, InputParser>();
         }
     }
 }
