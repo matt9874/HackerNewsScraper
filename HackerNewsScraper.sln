@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsScraper", "Hacker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsScraperTests", "HackerNewsScraperTests\HackerNewsScraperTests.csproj", "{957F3940-6872-449E-934A-CCD49ECB5F2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewScraper.Interfaces", "HackerNewScraper.Interfaces\HackerNewScraper.Interfaces.csproj", "{40530646-9532-4322-85FB-6DDC1F36820C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsScraper.Services", "HackerNewsScraper.Services\HackerNewsScraper.Services.csproj", "{862C1CE6-460E-4576-996A-3B7EBD8F536E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsScraper.Domain", "HackerNewsScraper.Domain\HackerNewsScraper.Domain.csproj", "{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,18 @@ Global
 		{957F3940-6872-449E-934A-CCD49ECB5F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{957F3940-6872-449E-934A-CCD49ECB5F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957F3940-6872-449E-934A-CCD49ECB5F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40530646-9532-4322-85FB-6DDC1F36820C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40530646-9532-4322-85FB-6DDC1F36820C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40530646-9532-4322-85FB-6DDC1F36820C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40530646-9532-4322-85FB-6DDC1F36820C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862C1CE6-460E-4576-996A-3B7EBD8F536E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862C1CE6-460E-4576-996A-3B7EBD8F536E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862C1CE6-460E-4576-996A-3B7EBD8F536E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862C1CE6-460E-4576-996A-3B7EBD8F536E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +50,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F7FCFB8E-4FBC-4262-A6B0-82FDC2A71C37} = {40933DDA-F9E6-4ECB-AB18-8442031FC0A5}
 		{957F3940-6872-449E-934A-CCD49ECB5F2D} = {78A55600-273E-4F06-9DA6-44E6FE02AB2B}
+		{40530646-9532-4322-85FB-6DDC1F36820C} = {40933DDA-F9E6-4ECB-AB18-8442031FC0A5}
+		{862C1CE6-460E-4576-996A-3B7EBD8F536E} = {40933DDA-F9E6-4ECB-AB18-8442031FC0A5}
+		{C3196EB7-BC0E-401F-A36E-3B9C27264E4D} = {40933DDA-F9E6-4ECB-AB18-8442031FC0A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C48A22E3-AD34-4297-B18E-FC7C809720A6}

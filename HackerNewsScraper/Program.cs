@@ -16,6 +16,8 @@ namespace HackerNewsScraper
 
             if (inputStatus.IsValid)
             {
+                var scraper = serviceProvider.GetRequiredService<IPostsScraper>();
+                scraper.Scrape(inputStatus.NumPosts);
             }
             else 
             {

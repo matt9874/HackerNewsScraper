@@ -17,6 +17,7 @@ namespace HackerNewsScraper
         internal static void Configure(IServiceCollection services)
         {
             services.AddTransient<IInputParser, InputParser>();
+            services.AddTransient<IPostsScraper, Services.HackerNewsScraper>();
         }
     }
 }
