@@ -18,4 +18,10 @@
     <ProjectReference Include="..\HackerNewsScraper.Services\HackerNewsScraper.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="SampleHackerNewsHtml\HackerNewsPage1_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

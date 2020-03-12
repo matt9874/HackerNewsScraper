@@ -21,6 +21,7 @@ namespace HackerNewsScraper
             services.AddTransient<IInputParser, InputParser>();
             services.AddTransient<IPostsScraper, Services.HackerNewsScraper>();
             services.AddTransient<IDataImporter<string,string>, HtmlTextImporter>();
+            services.AddTransient<IDataParser<string,IEnumerable<Post>>, HtmlTextParser>();
             services.AddTransient<IDataFormatter<List<Post>, string>, PostsFormatter>();
             services.AddTransient<IDataExporter<string>, ConsoleWriter>();
         }
